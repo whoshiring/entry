@@ -1,0 +1,47 @@
+# General and OS generated files
+*.log
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.DS_Store
+*.idea
+*.vscode
+*.thumbs.db
+*.Spotlight-V100
+*.Trashes
+.turbo
+
+# Go related files
+/bin
+/pkg
+
+# Node (JavaScript/TypeScript) related files
+node_modules
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+dist
+
+# Python related files
+*.py[cod]
+*.egg-info
+dist
+build
+*.egg
+*.pyc
+__pycache__
+
+# If you use virtualenv for Python
+*.virtualenv/
+*.venv/
+
+# Since individual projects have their own .gitignore files
+# Exclude top-level directories (the sub-projects) from this gitignore
+#!/*/
+
+# You can also exclude other top-level files or folders if you want
+# For example, if you have a top-level documentation folder:
+#!/documentation/
