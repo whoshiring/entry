@@ -2,6 +2,10 @@ import { useState } from "react"
 
 import { sendToBackground, sendToContentScript } from "@plasmohq/messaging"
 
+import { CountButton } from "~features/count-button"
+
+import "~styles/global.css"
+
 function IndexPopup() {
   const [txHash, setTxHash] = useState(undefined)
   const [txInput, setTxInput] = useState(0)

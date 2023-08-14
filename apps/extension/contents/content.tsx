@@ -1,4 +1,4 @@
-import cssText from "data-text:~style.css"
+import cssText from "data-text:~styles/global.css"
 import type { PlasmoCSConfig } from "plasmo"
 
 import { CountButton } from "~features/count-button"

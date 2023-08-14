@@ -4,7 +4,7 @@ import { useState } from "react"
 import { usePort } from "@plasmohq/messaging/hook"
 
 export const config: PlasmoCSConfig = {
-  matches: ["http://localhost:1947/*"]
+  matches: ["http://localhost:3000/*"]
 }
 
 export default function Porter() {
